@@ -1,0 +1,11 @@
+.polaroid-container{position:relative;float:left;margin:20px}
+.polaroid-shadow{background-color:#CCC;text-align:center}
+.polaroid{background-color:#FDFDFD;border:1px solid #999;position:relative;left:-3px;top:-3px}
+.polaroid-content-container{margin:15px 15px 32px 20px}
+.polaroid-pic{display:block;border:1px solid #CCC;border-top:1px solid #999;border-right:1px solid #999;margin-bottom:15px}
+.polaroid-caption{color:#777;font-size:.75em;font-style:italic}
+.tape{position:absolute}
+.top-left{width:80px;height:87px;top:-20px;left:-20px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src='../img/tape-tl.png')}
+.top-right{width:87px;height:80px;top:-20px;right:-20px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src='../img/tape-tr.png')}
+.top-left[class]{background-image:url(../img/tape-tl.png)}
+.top-right[class]{background-image:url(../img/tape-tr.png)}

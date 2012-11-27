@@ -1,0 +1,337 @@
+html {
+	height: 100%;
+	font-family: verdana;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#desktop {
+	background-image: url('http://interfacelift.com/wallpaper/D52e2bbd/02577_sardegnacastiadaslocmallocu_1920x1200.jpg');
+	background-position: top center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#cpButton {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+	font-size: 16px;
+	height: 35px;
+	width: 175px;
+	border: 2px solid black;
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(37,38,37) 0%,
+		rgb(163,163,163) 92%
+	);
+	opacity: 0.8;
+	-moz-border-radius: 15px;
+}
+
+#cpButton p {
+	margin-top: 6px;
+	opacity: 1.0;
+}
+
+#cpPanel {
+	position: absolute;
+	width: 550px;
+	height: 400px;
+	background-color: #eee;
+	top: 25%;
+	left: 28%;
+	border: 2px solid black;
+	-moz-border-radius: 15px;
+	padding: 10px;
+	padding-top: 0px;
+	z-index: 99999;
+}
+
+#cpPanel input {
+	margin-left: 10px;
+}
+
+#addItem {
+	position: absolute;
+	width: 550px;
+	height: 400px;
+	background-color: #eee;
+	top: 25%;
+	left: 28%;
+	border: 2px solid black;
+	-moz-border-radius: 15px;
+	padding: 10px;
+	padding-top: 0px;
+	z-index: 9999;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+#save {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+	font-size: 16px;
+	height: 35px;
+	width: 175px;
+	border: 2px solid black;
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(37,38,37) 0%,
+		rgb(163,163,163) 92%
+	);
+	opacity: 0.7;
+	-moz-border-radius: 15px;
+}
+
+#save p {
+	margin-top: 6px;
+	opacity: 1.0;
+}
+
+#itemSave {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+	font-size: 16px;
+	height: 35px;
+	width: 175px;
+	border: 2px solid black;
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(37,38,37) 0%,
+		rgb(163,163,163) 92%
+	);
+	opacity: 0.7;
+	-moz-border-radius: 15px;
+}
+
+#itemSave p {
+	margin-top: 6px;
+	opacity: 1.0;
+}
+
+#desktopText {
+	position: absolute;
+	left: 1%;
+	top: 1%;
+	color: #fff;
+	cursor: default;
+	opacity: 0.5;
+	font-size: 16px;
+	-moz-user-select: none;
+}
+
+#taskbar {
+	position: absolute;
+	bottom: 5%;
+	width: 60px;
+	opacity: 0.9;
+	left: 37%;
+	text-align: center;
+	z-index: 99999;
+}
+
+#weather {
+	background: #6f9dbe;
+	background: -webkit-gradient(linear, left top, left bottom, from(#adc7db), to(#6f9dbe));
+	background: -moz-linear-gradient(top, #b2bcc8, #adc7db);
+	width: 185px;
+	right: 1%;
+	top: 1%;
+	position: absolute;
+	padding: 5px 10px;
+	overflow: hidden;
+	border: 1px solid #6591b3;
+}
+ 
+#weather h2 {
+	color: #000;
+	text-shadow: rgba(250, 250, 250, 0.6) 2px 2px 0;
+}
+ 
+#weather p {
+	font-size: 25px;
+	margin: 30px 0 0;
+}
+ 
+#weather p span {
+	font-size: 16px;
+}
+ 
+#weather a:link, #weather a:active, #weather a:visited {
+	display: block;
+	clear: both;
+	text-decoration: none;
+	color: #222;
+	font-size: 12px;
+}
+ 
+#weather a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.dragme {
+	margin-top: 9px;
+	right: 0px;
+	height: 30px;
+	width: 104%;
+}
+
+.dragme img {
+	margin-right: 4%;
+}
+
+.close {
+	float: right;
+	background: url('../img/close.png');
+	width: 16px;
+	height: 16px;
+}
+
+.window {
+	width: 1000px;
+	height: 700px;
+	position: absolute;
+	left: 23%;
+	top: 10%;
+	border: 3px solid black;
+	background: #333;
+	color: #fff;
+	text-align: right;
+}
+
+.window iframe {
+	z-index: 1;
+	width: 99%;
+	height: 94%;
+	margin: 2px;
+	margin-bottom: -10px;
+}
+
+#taskbarLeft {
+	background-image: url('../img/taskbarLeft.png');
+	width: 40px;
+	height: 50px;
+	float: left;
+}
+
+#taskbarRight {
+	background-image: url('../img/taskbarRight.png');
+	width: 35px;
+	height: 50px;
+	float: left;
+}
+
+#itemTypeDiv {
+	position: absolute;
+	right: 14px;
+	top: 9px;
+}
+
+#itemIcon {
+	margin-top: 20px;
+}
+
+.windowItem {
+	text-align: left;
+	margin-left: 5px;
+}
+
+#taskbarItems {
+	background-image: url('../img/taskbarTile.png');
+	width: 8px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+#addItemForm {
+	margin-top: 24px;
+}
+
+label {
+	font-weight: bold;
+}
+
+select {
+	margin-left: 10px;
+}
+
+#addItem ul {
+	list-style-type: none;
+	margin-top: -14px;
+}
+
+#addItem li {
+	margin-left: 0;
+	float: left;
+	margin-top: 18px;
+}
+
+ul input {
+	position: absolute;
+	margin-left: 19px;
+	margin-top: -1px;
+}
+
+.item {
+	background-image: url('../img/Bookmark.png');
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 48px;
+	margin-top: -17px;
+	float: left;
+	cursor: pointer;
+	padding-right: 17px;
+}
+
+.pictures {
+	position: absolute;
+}
+
+.itemText {
+	color: #fff;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 46px;
+	text-align: center;
+	width: 58px;
+	margin-left: -6px;
+	text-shadow: 3px 3px 3px #000;
+}
+
+.addItem {
+	background-image: url('../img/add.png');
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 48px;
+	margin-top: -17px;
+	float: right;
+	cursor: pointer;
+	padding-right: 17px;
+}
